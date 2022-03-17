@@ -1,5 +1,5 @@
 const character = document.getElementById("character");
-const cactus = document.getElementById("object");
+const object = document.getElementById("object");
 
 function jump() {
   if (character.classList != "jump") {
