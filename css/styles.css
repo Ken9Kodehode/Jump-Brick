@@ -3,6 +3,7 @@
     height: 200px;
     border: 2px solid rgb(64, 0, 255);
     margin: auto;
+    margin-top: 5rem;
   }
   
   #character {
@@ -62,4 +63,27 @@
       left: -20px;
     }
   }
+
+#head-logo {
+
+    font-size: 66px;
+    color: #0066ff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(-75,27,180),
+                 1px 1px 0 rgb(-88,14,167),
+                 2px 2px 0 rgb(-101,1,154),
+                 3px 3px 0 rgb(-114,-12,141),
+                 4px 4px 0 rgb(-127,-25,128),
+                 5px 5px 0 rgb(-140,-38,115),
+                 6px 6px 0 rgb(-153,-51,102),
+                 7px 7px 0 rgb(-166,-64,89),
+                 8px 8px 0 rgb(-179,-77,76),
+                 9px 9px 0 rgb(-192,-90,63),
+                 10px 10px 0 rgb(-205,-103,50),
+                 11px 11px  0 rgb(-218,-116,37),
+                 12px 12px 11px rgba(0,0,0,1),
+                 12px 12px 1px rgba(0,0,0,0.5),
+                 0px 0px 11px rgba(0,0,0,.2);
+                 text-align: center;
+ }
   
