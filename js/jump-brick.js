@@ -1,6 +1,6 @@
 const character = document.getElementById("character");
 const object = document.getElementById("object");
-
+// Function
 function jump() {
   if (character.classList != "jump") {
     character.classList.add("jump");
@@ -26,7 +26,7 @@ let isAlive = setInterval(function () {
     alert("Game Over!");
   }
 }, 10);
-
+// EventListener
 document.addEventListener("keydown", function (event) {
   jump();
 });
